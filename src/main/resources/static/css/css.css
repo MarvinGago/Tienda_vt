@@ -1,0 +1,104 @@
+/* 
+    mi primera pagijna de estilo, lo que se hacen reglas
+*/
+
+body{
+    background-color: white;
+    font-family: sans-serif ;
+    margin: 0;
+}
+.encabezado{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    background-color: #009999;
+    color: blue;
+    padding: 0 10px;
+}
+aside{
+    position: fixed;
+    top: 110px;
+    left: 0;
+    width: 20%;
+    background-color: aqua;
+    color: blue;
+    bottom: 20px;
+    padding: 10px;
+}
+
+section{
+    overflow-y: scroll;
+    position: fixed;
+    top: 110px;
+    left: 20%;
+    width: 80%;
+    background-color: background;
+    bottom: 20px;
+}
+
+
+footer{
+    position: fixed;
+    left: 0%;
+    width: 100%;
+    background-color: whitesmoke;
+    bottom: 0px;
+    color: wheat;
+    text-align: center;
+}
+.nav-menu-link{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+/* esto es para que cada vez que ponga por encima de la tecla se pongan de un color 
+*/
+.nav-menu-link:hover{
+
+    background-color: blue;
+}
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 0 40px;
+    line-height: 100px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 100px;
+}
+
+
+
+
+/*
+header h2{
+    color: blue;
+    font-family: cursive;
+}
+h1,h2,h3{
+    font-family: fantasy
+}*/

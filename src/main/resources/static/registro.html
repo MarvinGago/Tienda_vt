@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<!-- primera pagina web   // recorda<hr> es patra la rallita-->
+<html>
+    <head>
+        <title> TechShop </title>
+        <meta charset="UTF-8"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body >
+        <header class="encabezado">
+
+            <nav class="navegacion">
+                <a class="nav-link logo"   href="index.html">TechShop</a>    
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a  class="nav-link nav-menu-link" href="ejemplo4.html">&triangleleft;</a> </li>
+                    <li class="nav-menu-item"><a  class="nav-link nav-menu-link" href="audio.html">&triangleright;</a></li>
+                    <li class="nav-menu-item"><a  class="nav-link nav-menu-link" href="video.html">&triangleleft;</a> </li>
+                    <li class="nav-menu-item"><a  class="nav-link nav-menu-link" href="iframe.html">&triangleright;</a></li>
+                    <li class="nav-menu-item"><a  class="nav-link nav-menu-link" href="registro.html">&triangleleft;</a> </li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <aside>
+            <h1>Formulario</h1>
+            <h2>Ejemplos de formularios</h2>
+        </aside>
+        <section>
+            <h2>Registros de usuarios </h2>
+            <article>
+                <h3>Ingrese sus datos</h3>
+                <form method="post"
+                      action="usuario/registro">
+                    Nombre:<input
+                        type="text" 
+                        name="Nombre"
+                        value="" 
+                        size="50" />
+                    <br/>
+                    Correo:<input 
+                        type="email" 
+                        name="correo"
+                        value=""
+                        size="36" />
+                    <br/>
+                    Clave:<input
+                        type="password"
+                        name="clave" 
+                        value=""
+                        size="10" />
+                    <br/>
+                    Edad:<input
+                        type="number"
+                        name="edad"
+                        value=""
+                        size="10" />
+                    <br/>
+                    <input 
+                        type="submit"
+                        value="Enviar" />
+                </form>
+            </article>
+        </section>
+        <footer>
+            TechShop Todos los Derechos Reservados 2024 &COPY;
+        </footer>
+    </body>
+</html>
